@@ -10,8 +10,8 @@
 - [Downloads](#downloads)
   * [Getting Python >3.0](#getting-python--30)
   * [Getting Anaconda with Python 3](#getting-anaconda-with-python-3)
-    + [Virtual Environments (advanced topic)](#virtual-environments--advanced-topic-)
-    + [Differences between Python and Anaconda](#differences-between-python-and-anaconda)
+  * [Virtual Environments (advanced topic)](#virtual-environments--advanced-topic-)
+  * [Differences between Python and Anaconda](#differences-between-python-and-anaconda)
 - [Code Editors](#code-editors)
 - [Practice](#practice)
 
@@ -68,7 +68,7 @@ pip3 install -r requirements.txt
 
 This is not recommended because many advanced users of python will have multiple python distributions, and sometimes other programs install their own python distribution which may conflict with Anaconda's. However, the benefits for adding Anaconda's python distribution as your default python makes using the command line and IDE's such as Spyder and Jupyter easier to manage.
 
-### Virtual Environments (advanced topic)
+## Virtual Environments (advanced topic)
 It has already been touched upon that python is installed from distributions (e.g. the python community, or from Anaconda); hence, python is distributable. Also, packages are routinely installed to augment python's functionalities. This begs the question: _how do I make sure I protect the python distribution I want, and manage my packages correctly from conflicting ones?_ The answer is [virtual environments](https://docs.python.org/3/tutorial/venv.html), where you literally install another python distribution in a separate folder or path. Once you _activate_ a virtual environment, you are then _"protected"_ from others and can install packages directly in your dedicated environment. Likewise, if your python environment gets messed up, it can be easily deleted or replaced. You would call these "sandbox" or "playground" environments.
 
 There are two approaches when managing and using virtual envionrments for native python 3 installations and Anaconda.
@@ -131,7 +131,7 @@ conda install -n SOME_NAME --yes --file requirements.txt
 
 **note**: It is recommended that all packages are installed via `conda`, as this integrates with the other GUIs and features Anaconda provides (such as visually tracking your environments). However, you can still use the `pip` command, and even the `venv` command; however, mix-uses will lead to inconsistencies when tracking your environments and packages. Your code will still work, but your bookkeeping will be off; which defeats the purpose of using virtual environments in the first place.
 
-### Differences between Python and Anaconda
+## Differences between Python and Anaconda
 As a fun play on words, the Anaconda team chose this name because Anacondas are bigger than pythons. That's the first difference.
 
 | Python + Pip | Anaconda |
