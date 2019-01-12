@@ -4,6 +4,17 @@
 * For modular code, edit the [_.rcParams_](https://matplotlib.org/users/dflt_style_changes.html) of matplotlib to edit global styles such as fontsize and colors.
 * Look at the matplotlib [galleries](https://matplotlib.org/gallery/index.html) for inspiration and read their [tutorials](https://matplotlib.org/tutorials/index.html) for any specific help. Stack exchange and cheatsheets are aboound on the web.
 
+# Table of Contents
+- [TL;DR](#tl-dr)
+- [Getting Started](#getting-started)
+- [Downloads](#downloads)
+  * [Getting Python >3.0](#getting-python--30)
+  * [Getting Anaconda with Python 3](#getting-anaconda-with-python-3)
+    + [Virtual Environments (advanced topic)](#virtual-environments--advanced-topic-)
+    + [Differences between Python and Anaconda](#differences-between-python-and-anaconda)
+- [Code Editors](#code-editors)
+- [Practice](#practice)
+
 # Getting Started
 Python is a versatile tool for many computational task, be it for image processing, machine learning, or web development. Given its versatility and wide adoption, the need for robust and professional scientific plotting was developed, and was established with a package called [Matplotlib](https://en.wikipedia.org/wiki/Matplotlib) in 2003.
 
@@ -26,7 +37,7 @@ plt.plot(x, y)
 plt.show()
 ```
 
-However, the advantage of python and matplotlib goes basic plotting syntax and utilizes an object-oriented approach for plotting, and easy to use getters and setters to modify nearly all parts of a figure.
+However, the advantage of python and matplotlib goes basic plotting syntax and utilizes an object-oriented approach for plotting, and easy to use getters and setters to modify nearly all parts of a figure. Please look at the matplotlib [galleries](https://matplotlib.org/gallery/index.html) for inspiration and read their [tutorials](https://matplotlib.org/tutorials/index.html) for any specific help.
 
 # Downloads
 Downloading python from the [web](https://www.python.org/downloads/) is not enough, to take advantage of the programming languages additional scientific packages such as _numpy_, _pandas_, and _matplotlib_ need to be installed along with it. There are two ways to download python and its core scientific packages. Downloading the python distribution directly and installing the packages yourself with python's package manager _pip_. Or downloading a catered scientific python distribution such as [Anaconda](https://www.anaconda.com/) which comes with the most common packages and many more features beyond python (explained below).
@@ -133,7 +144,7 @@ As a fun play on words, the Anaconda team chose this name because Anacondas are 
 # Code Editors
 If you are coming from a MATLAB background an easy transition is [Spyder](https://www.spyder-ide.org/), if you are relatively new overall and want to begin with a widely popular, yet alternative way, of scientific computing then use [Jupyter Notebooks](https://jupyter.org/). Here are the differences between the two
 
-| Spyder ![Spyder](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spyder_logo.svg/150px-Spyder_logo.svg.png)  |  Jupyter ![Jupyter](https://jupyter.org/assets/try/jupyter.png) |
+| Spyder | Jupyter |
 |----------|----------|
 | A GUI similar to MATLAB | A web-based application <br> (i.e. you need a web-browser like Chrome) |
 | Has many preferences and settings that can be adjusted such as panel positions, syntax coloring, text size, etc. | Your interface is limited to the web-browsers and Jupyter's default settings. You will have to dig in a bit more to change small preferences |
