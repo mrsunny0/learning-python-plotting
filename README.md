@@ -142,7 +142,7 @@ As a fun play on words, the Anaconda team chose this name because Anacondas are 
 | **Advanced topic**: `venv` will create the virtual environment at your desired location. If you are using multiple computers and a file sharing service (e.g. Dropbox, Drive), your other computer can activate this python distribution as you are sharing the literal file location and contents. | **Advanced topic**: `conda install` will place your virtual environment in a directory specific to your computer. Therefore, your other computers will not have access to it; therefore you cannot activate it and resume coding elsewhere. |
 
 # Code Editors
-If you are coming from a MATLAB background an easy transition is [Spyder](https://www.spyder-ide.org/), if you are relatively new overall and want to begin with a widely popular, yet alternative way, of scientific computing then use [Jupyter Notebooks](https://jupyter.org/). Here are the differences between the two
+Two of the major scientific python code editors are Spyder and Jupyter Notebooks. If you are coming from a MATLAB background an easy transition is [Spyder](https://www.spyder-ide.org/), if you are relatively new overall and want to begin with a widely popular, yet alternative way, of scientific computing then use [Jupyter Notebooks](https://jupyter.org/). Here are the differences between the two:
 
 | Spyder | Jupyter |
 |----------|----------|
@@ -152,6 +152,13 @@ If you are coming from a MATLAB background an easy transition is [Spyder](https:
 | Spyder comes with an iPython kernel which Jupyter uses. In addition, Spyder comes with a debugger, variable viewer, file explorer, etc. | Without add-ons, Jupyter simply is a code-editor. |
 | Files are saved as basic _.py_ files, which are easy to share, edit, and version control | Files are saved as _.ipynb, which when shared (e.g. github) render into html; however version control is a bit more round-about |
 | Spyder is python only (there is some discussion of having other languages) | Jupyter also runs R, Haskell, Javascript, etc. and can render Markdown in cells making commenting very pretty and versatile |
+
+There is now a new coding editor called [Visual Studio Code](https://code.visualstudio.com/) which Anaconda has recently partnered with. Think of Visual Studio Code as a prettier version of Spyder with more intuitive panels and icons, but without some features such as a variable explorer and an interactive python console.
+
+A deprecated editor, but may be resurrected in the future, is [Rodeo](https://rodeo.yhat.com/). Rodeo mimicked the famously popular R Studio IDE, and it was elegant and intuitive to use. The original company got bought and [no longer](https://github.com/yhat/rodeo/issues/655) develops the platform. Even the download site will give an error unless you download the 2nd latest version. However, the code-base still exists for people to hack, and personally, I wish Rodeo was still around.
+
+**Takeaway**  
+If you want to have a MATLAB-like environment then Spyder is the way to go. However, those who have been part of the python scientific community from the start will most likely rave about Jupyter notebooks, and its probably more used than Spyder for its sharing and appealing documentation capabilities. If you want something brand new, like exploring, then try Visual Studio Code, as it will only get better. For my academic work, I tend to use Spyder. For assignments or works that should be shared or used as educational resources, then I use Jupyter.
 
 # Practice
 This [repository](https://github.com/mrsunny0/python-plotting-notes) contains figure making tutorials and example plots typical to the Bioengineering field, specifically those seen and taught at MIT. This repo will be added onto, and we welcome collaboration and contributions from the community to better help future students.
