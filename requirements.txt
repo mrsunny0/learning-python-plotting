@@ -6,3 +6,8 @@ scikit-learn
 matplotlib
 jupyter
 spyder
+
+# puts env into jupyter notebook
+ipykernel 
+# type this python -m ipykernel install --user --name <env name> 
+# if kernel isn't properly installed
