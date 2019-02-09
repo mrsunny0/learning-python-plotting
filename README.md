@@ -161,4 +161,11 @@ A deprecated editor, but may be resurrected in the future, is [Rodeo](https://ro
 If you want to have a MATLAB-like environment then Spyder is the way to go. However, those who have been part of the python scientific community from the start will most likely rave about Jupyter notebooks, and its probably more used than Spyder for its sharing and appealing documentation capabilities. If you want something brand new, like exploring, then try Visual Studio Code, as it will only get better. For my academic work, I tend to use Spyder. For assignments or works that should be shared or used as educational resources, then I use Jupyter.
 
 # Practice
-This [repository](https://github.com/mrsunny0/python-plotting-notes) contains figure making tutorials and example plots typical to the Bioengineering field, specifically those seen and taught at MIT. This repo will be added onto, and we welcome collaboration and contributions from the community to better help future students.
+This [repository](https://github.com/mrsunny0/python-plotting-notes) contains figure making tutorials and example plots typical to the Bioengineering field, specifically those seen and taught at MIT.
+
+The main practice files can be found here:
+* [line charts](https://github.com/mrsunny0/python-plotting-notes/tree/master/exercise1-line_chart)
+* [bar charts](https://github.com/mrsunny0/python-plotting-notes/tree/master/exercise2-bar_chart)
+* [subplotting](https://github.com/mrsunny0/python-plotting-notes/tree/master/exercise3-subplotting)
+
+This repo will be added onto, and we welcome collaboration and contributions from the community to better help future students.
