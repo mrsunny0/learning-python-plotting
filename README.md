@@ -4,6 +4,13 @@
 * For modular code, edit the [_.rcParams_](https://matplotlib.org/users/dflt_style_changes.html) of matplotlib to edit global styles such as fontsize and colors.
 * Look at the matplotlib [galleries](https://matplotlib.org/gallery/index.html) for inspiration and read their [tutorials](https://matplotlib.org/tutorials/index.html) for any specific help. Stack exchange and cheatsheets are aboound on the web.
 
+
+This repo practice files can be found here:
+* [line charts](https://github.com/mrsunny0/python-plotting-notes/tree/master/exercise1-line_chart)
+* [bar charts](https://github.com/mrsunny0/python-plotting-notes/tree/master/exercise2-bar_chart)
+* [subplotting](https://github.com/mrsunny0/python-plotting-notes/tree/master/exercise3-subplotting)
+* more to be added ...
+
 # Table of Contents
 - [TL;DR](#tl-dr)
 - [Getting Started](#getting-started)
